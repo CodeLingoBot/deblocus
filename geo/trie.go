@@ -110,7 +110,7 @@ func buildRoutingTable(entries entrySet) *routingTable {
 	}
 }
 
-/* Return a nexthop or 0 if not found */
+/* Find returns a nexthop or 0 if not found */
 func (t *routingTable) Find(s uint32) (uint16, bool) {
 	var pos, branch, adr, node, bitmask uint32
 	/* Traverse the trie */

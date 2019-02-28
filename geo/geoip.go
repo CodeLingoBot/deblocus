@@ -190,6 +190,7 @@ func U16toS(u uint16) string {
 
 /*
  CIDR utils
+*/ParseCIDR utils
 */
 // parse 10-bit cidr literal to binary ip/mask
 func ParseCIDR(s string) (ip, m uint32) {

@@ -92,7 +92,7 @@ func nvl(v interface{}, def interface{}) interface{} {
 	return v
 }
 
-// return arg0 the substring before sep
+// SubstringBefore returns arg0 the substring before sep
 // return arg1 the substring after sep
 func SubstringBefore(str, sep string) (string, string) {
 	if p := strings.Index(str, sep); p > 0 {
